@@ -43,19 +43,18 @@ body {
 }
 
 .navbar_clothes{
-    height: 40px;
+    height: 30px;
 }
 
 .navbar_clothes ul{
     list-style:none;
-    
 }
   
 .navbar_clothes li{
     float: left;
     margin-right: 30px;
     margin-left: 170px;
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .top{
@@ -138,6 +137,30 @@ body {
 .section [id="slide01"]:checked ~ .slidewrap .slidelist >li {transform: translateX(0%);}
 .section [id="slide02"]:checked ~ .slidewrap .slidelist >li {transform: translateX(-100%);}
 .section [id="slide03"]:checked ~ .slidewrap .slidelist >li {transform: translateX(-200%);}
+
+/*body - best*/
+.best ul{
+    list-style: none;
+}
+
+.best li{
+    list-style-type: none;
+    margin-right: 30px;
+    
+}
+
+.best img{
+    height: 400px;
+    width: 300px;
+}
+
+.best p{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 30px;
+    font-weight: bold;
+}
+  
 
 /*footer*/
 .footer ul{
