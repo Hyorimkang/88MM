@@ -41,16 +41,43 @@ body {
     width: 40px;
 }
 
-.navbar_cloth{
+.navbar_clothes{
     height: 40px;
 }
 
-.navbar_cloth ul{
-    float: right;
+.navbar_clothes ul{
+    list-style:none;
+    
 }
   
-.navbar_cloth li{
-    list-style-type: none;
+.navbar_clothes li{
     float: left;
     margin-right: 30px;
+    margin-left: 170px;
+    font-size: 23px;
+}
+
+.top{
+    text-decoration-line:none;
+    color: black;
+}
+
+.bottom{
+    text-decoration-line:none;
+    color: black;
+}
+
+.outer{
+    text-decoration-line:none;
+    color: black;
+}
+
+.bag{
+    text-decoration-line:none;
+    color: black;
+}
+
+.cap{
+    text-decoration-line:none;
+    color: black;
 }
