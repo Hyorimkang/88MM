@@ -141,12 +141,32 @@ body {
 /*body - best*/
 .best ul{
     list-style: none;
+    margin-left: 100px;
 }
 
 .best li{
     list-style-type: none;
-    margin-right: 30px;
-    
+    float: left;
+    margin-right: 80px;
+}
+
+.best01{
+    margin-left: 60px;
+}
+
+.best01:hover{
+    background: gray;
+    opacity: 0.5;
+}
+
+.best02:hover{
+    background: gray;
+    opacity: 0.5;
+}
+
+.best03:hover{
+    background: gray;
+    opacity: 0.5;
 }
 
 .best img{
@@ -163,11 +183,23 @@ body {
   
 
 /*footer*/
-.footer ul{
+.footer{
+    height: 20px;
+    position: relative;
+    transform: translateY(-100%);
+}
+
+.wrapper{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 20px;
+}
+
+.wrapper ul{
     margin-right: 10px;
 }
 
-.footer li{
+.wrapper li{
     list-style-type: none;
 }
 
