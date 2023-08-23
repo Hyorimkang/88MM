@@ -139,6 +139,7 @@ body {
 .section [id="slide03"]:checked ~ .slidewrap .slidelist >li {transform: translateX(-200%);}
 
 /*body - best*/
+
 .best ul{
     list-style: none;
     margin-left: 100px;
@@ -205,6 +206,81 @@ body {
     text-align: left;
     margin-left: 30px;
     font-weight: bold;
+}
+
+/*collaboration*/
+.collaboration li{
+    list-style: none;
+}
+
+.collabo01{
+    margin-left: 100px;
+}
+
+.collabo01 img{
+    width: 600px;
+    height: 320px;
+    margin-bottom: 30px;
+}
+
+.collabo01_title{
+    font-size: 35px;
+    color: black;
+    position: absolute;
+    top: 170%;
+    left: 55%;
+    padding: 10px;
+}
+
+.collabo01_txt{
+    font-size: 15px;
+    color: black;
+    top: 178%;
+    left: 55%;
+    position: absolute;
+    padding: 10px;
+}
+
+.collabo01_btn{
+    height: 60px;
+    width: 200px;
+    top: 240%;
+    left: 55%;
+}
+
+.collabo02{
+    margin-left: 100px;
+}
+
+.collabo02 img{
+    width: 600px;
+    height: 320px;
+    
+}
+
+.collabo02_title{
+    font-size: 35px;
+    color: black;
+    position: absolute;
+    top: 220%;
+    left: 55%;
+    padding: 10px;
+}
+
+.collabo02_txt{
+    font-size: 15px;
+    color: black;
+    top: 228%;
+    left: 55%;
+    position: absolute;
+    padding: 10px;
+}
+
+.collabo02_btn{
+    height: 60px;
+    width: 200px;
+    top: 240%;
+    left: 55%;
 }
   
 
