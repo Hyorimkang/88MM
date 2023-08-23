@@ -152,6 +152,7 @@ body {
 
 .best01{
     margin-left: 60px;
+    position: relative;
 }
 
 .best01:hover{
@@ -159,15 +160,40 @@ body {
     opacity: 0.5;
 }
 
+.best01_txt{
+    position:absolute;
+    top:150%;
+    color: black;
+    left: 10%;
+    font-size: 13px;
+}
+
 .best02:hover{
     background: gray;
     opacity: 0.5;
+}
+
+.best02_txt{
+    position:absolute;
+    top:174%;
+    color: black;
+    left: 40%;
+    font-size: 13px;
 }
 
 .best03:hover{
     background: gray;
     opacity: 0.5;
 }
+
+.best03_txt{
+    position: absolute;
+    color: black;
+    top: 174%;
+    font-size: 13px;
+    left: 65%;
+}
+
 
 .best img{
     height: 400px;
