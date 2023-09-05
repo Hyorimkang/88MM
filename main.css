@@ -143,6 +143,7 @@ body {
 /*body - best*/
 .best{
     position: relative;
+    margin-left: 30px;
 }
 .best ul{
     list-style: none;
@@ -167,11 +168,10 @@ body {
 }
 
 .best01_txt{
-    /* position:absolute;
-    top:150%; */
     color: black;
-    left: 10%;
+    left: 20%;
     font-size: 13px;
+    margin-left: 100px;
 }
 .best02{
     position: relative;
@@ -182,11 +182,10 @@ body {
 }
 
 .best02_txt{
-    /* position:absolute;
-    top:174%; */
     color: black;
     left: 40%;
     font-size: 13px;
+    margin-left: 20px;
 }
 .best03{
     position: relative;
@@ -197,11 +196,10 @@ body {
 }
 
 .best03_txt{
-    /* position: absolute;
-    top: 174%; */
     color: black;
     font-size: 13px;
     left: 65%;
+    margin-left: 30px;
 }
 
 
@@ -222,11 +220,18 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 .collaboration>div{
     position: relative;
     display: flex;
     flex-direction: row;
+    margin-left: 150px;
+}
+.collabo_txt{
+    font-size: 40px;
+    margin-left: 30px;
+    font-weight: bold;
 }
 .collaboration li{
     list-style: none;
@@ -235,7 +240,7 @@ body {
 .txtbox{
     display: flex;
     flex-direction: column;
-    padding-left: 150px;
+    padding-left: 100px;
 }
 .btn{
     position: relative;
@@ -264,8 +269,6 @@ body {
 .collabo01_btn{
     height: 60px;
     width: 200px;
-    /* top: 240%;
-    left: 55%; */
 }
 
 .collabo02{
