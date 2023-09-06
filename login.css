@@ -44,11 +44,67 @@ body {
     width: 40px;
 }
 
+/*login*/
+#wrap{
+    position: relative;
+    min-height: 100%;
+
+}
+
+.login_box{
+    position: absolute;
+    text-align: center;
+    margin: 30px;
+    width: 500px;
+    height: 480px;
+    border: 2px solid rgb(203, 203, 203);
+    background-color: #ffffff;
+    box-sizing: border-box;
+    top: 100%;
+    left: 30%;
+}
+
+.login_txt{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.id_txt{
+    font-size: 20px;
+}
+
+.pw_txt{
+    font-size: 20px;
+}
+
+.btn{
+    margin-top: 20px;
+}
+
+.btn_login{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+.signup_txt{
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgb(203, 203, 203);
+    text-decoration: underline;
+}
+
+
 /*footer*/
 .footer{
     height: 20px;
-    position: relative;
+    position: absolute;
     transform: translateY(-100%);
+    bottom: 0px;
 }
 
 .wrapper{
