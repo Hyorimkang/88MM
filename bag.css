@@ -101,49 +101,35 @@ body {
     position: relative;
 }
 
-.cap01{
+.bag01{
     margin-left: 60px;
     position: relative;
 }
 
-.cap01:hover{
+.bag01:hover{
     background: gray;
     opacity: 0.5;
 }
 
-.cap01_txt{
+.bag01_txt{
     color: black;
     left: 20%;
     font-size: 13px;
     margin-left: 100px;
 }
-.cap02{
+.bag02{
     position: relative;
 }
-.cap02:hover{
+.bag02:hover{
     background: gray;
     opacity: 0.5;
 }
 
-.cap02_txt{
+.bag02_txt{
     color: black;
     left: 40%;
     font-size: 13px;
     margin-left: 20px;
-}
-.cap03{
-    position: relative;
-}
-.cap03:hover{
-    background: gray;
-    opacity: 0.5;
-}
-
-.cap03_txt{
-    color: black;
-    font-size: 13px;
-    left: 65%;
-    margin-left: 30px;
 }
 
 .bag_clothes img{

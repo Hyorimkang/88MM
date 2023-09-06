@@ -131,20 +131,6 @@ body {
     font-size: 13px;
     margin-left: 20px;
 }
-.cap03{
-    position: relative;
-}
-.cap03:hover{
-    background: gray;
-    opacity: 0.5;
-}
-
-.cap03_txt{
-    color: black;
-    font-size: 13px;
-    left: 65%;
-    margin-left: 30px;
-}
 
 .cap_clothes img{
     height: 400px;
@@ -157,7 +143,6 @@ body {
     margin-left: 30px;
     font-weight: bold;
 }
-
 
 /*footer*/
 .footer{
