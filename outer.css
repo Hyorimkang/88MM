@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+}
+ 
+/*header*/
+body {
+    margin: 0;
+    min-width: 992px;
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    height: 50px;
+    padding-left: 30px;
+}
+  
+.logo{
+    line-height: 60px;
+    float: left;
+}
+.logo img{
+    vertical-align: middle;
+    height: 60px;
+    width: 250px;
+}
+  
+.navbar ul{
+    float: right;
+}
+  
+.navbar li{
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+}
+  
+.login img{
+    height: 40px;
+    width: 40px;
+}
+
+.cart img{
+    height: 40px;
+    width: 40px;
+}
+
+.navbar_clothes{
+    height: 30px;
+}
+
+.navbar_clothes ul{
+    list-style:none;
+}
+  
+.navbar_clothes li{
+    float: left;
+    margin-right: 30px;
+    margin-left: 170px;
+    font-size: 20px;
+}
+
+.top{
+    text-decoration-line:none;
+    color: black;
+}
+
+.bottom{
+    text-decoration-line:none;
+    color: black;
+}
+
+.outer{
+    text-decoration-line:none;
+    color: black;
+}
+
+.bag{
+    text-decoration-line:none;
+    color: black;
+}
+
+.cap{
+    text-decoration-line:none;
+    color: black;
+}
+
+/*outer*/
+.outer_clothes{
+    position: relative;
+    margin-left: 40px;
+}
+.outer_clothes ul{
+    list-style: none;
+    margin-left: 100px;
+}
+
+.outer_clothes li{
+    list-style-type: none;
+    float: left;
+    margin-right: 80px;
+    position: relative;
+}
+
+.outer01{
+    margin-left: 60px;
+    position: relative;
+}
+
+.outer01:hover{
+    background: gray;
+    opacity: 0.5;
+}
+
+.outer01_txt{
+    color: black;
+    left: 20%;
+    font-size: 13px;
+    margin-left: 100px;
+}
+.outer02{
+    position: relative;
+}
+.outer02:hover{
+    background: gray;
+    opacity: 0.5;
+}
+
+.outer02_txt{
+    color: black;
+    left: 40%;
+    font-size: 13px;
+    margin-left: 20px;
+}
+.outer03{
+    position: relative;
+}
+.outer03:hover{
+    background: gray;
+    opacity: 0.5;
+}
+
+.outer03_txt{
+    color: black;
+    font-size: 13px;
+    left: 65%;
+    margin-left: 30px;
+}
+
+.outer_clothes img{
+    height: 400px;
+    width: 300px;
+}
+
+.outer_clothes p{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 30px;
+    font-weight: bold;
+}
+
+/*footer*/
+.footer{
+    height: 20px;
+    position: relative;
+    transform: translateY(-100%);
+}
+
+.wrapper{
+    height: auto;
+    min-height: 100%;
+    padding-bottom: 20px;
+}
+
+.wrapper ul{
+    margin-right: 10px;
+}
+
+.wrapper li{
+    list-style-type: none;
+}
+
+.instagram img{
+    height: 25px;
+    width: 25px;
+    float:right;
+    margin-right: 30px;
+}
+
+.youtube img{
+    height: 25px;
+    width: 33px;
+    float:right;
+    margin-right: 10px;
+}
+
+.information{
+    color: gray;
+    font-size: 13px;
+}
