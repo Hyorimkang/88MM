@@ -185,6 +185,12 @@ body {
     position: relative;
 }
 
+.bottom_txt{
+    font-size: 40px;
+    text-align: center;
+    margin-top: -20px;
+}
+
 .bottom01{
     margin-left: 60px;
     position: relative;
