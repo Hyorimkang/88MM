@@ -91,7 +91,7 @@ body {
 }
 .top_clothes ul{
     list-style: none;
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 .top_clothes li{
@@ -116,6 +116,7 @@ body {
     left: 20%;
     font-size: 13px;
     margin-left: 100px;
+    text-decoration: underline;
 }
 .top02{
     position: relative;
@@ -130,6 +131,7 @@ body {
     left: 40%;
     font-size: 13px;
     margin-left: 20px;
+    text-decoration: underline;
 }
 .top03{
     position: relative;
@@ -144,11 +146,12 @@ body {
     font-size: 13px;
     left: 65%;
     margin-left: 30px;
+    text-decoration: underline;
 }
 
 .top_clothes img{
     height: 400px;
-    width: 300px;
+    width: 310px;
 }
 
 .top_clothes p{
