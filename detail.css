@@ -87,10 +87,10 @@ body {
 /*상세페이지*/
 .container{
     position: relative;
-    margin: 20px;
+    margin: 70px;
 }
 .left{
-    margin: 30px;
+    margin: 50px;
 }
 .left img{
     width: 600px;
@@ -99,35 +99,42 @@ body {
 
 .right_up{
     position: absolute;
+    margin-left: 100px;
 }
 .name{
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 .price{
     color: black;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 .size{
     color: gray;
-    font-size: 13px;
+    font-size: 17px;
     font-weight: bold;
 }
-.total_price{
+.total_price_txt{
     font-weight: bold;
+    font-size: 17px;
 }
-.right_down{
-
+#button button{
+    border: solid 1px gray;
+    background-color: #ffffff;
+    padding: 5px;
+    width: 250px;
+    height: 50px;
+    font-size: 17px;
 }
 .infor{
     color: gray;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
 }
 .information{
-    font-size: 14px;
+    font-size: 17px;
 }
 
 /*footer*/
